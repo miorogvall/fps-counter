@@ -1,0 +1,21 @@
+#barchart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: rgb(4 0 12);
+    height: 200px;
+    width: 400px;
+    position: relative;
+    background-size: 10px 10px;
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.2) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+}
+
+.absolute-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+}

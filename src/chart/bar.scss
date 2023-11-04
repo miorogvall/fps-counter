@@ -1,0 +1,37 @@
+.bar {
+    min-width: 10px;
+    border-radius: 4px;
+    min-height: 26px !important;
+    font-style: italic;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 6px;
+    width: 9.09090909091%;
+    justify-content: center;
+    display: flex;
+    border-right: 2px solid rgb(4, 0, 12);
+    letter-spacing: 2px;
+    font-size: 12px;
+
+    &:last-child {
+        border: none;
+    }
+    .number {
+        mix-blend-mode: difference;
+        color: white;
+    }
+
+    &.green {
+        background: rgb(34,195,50);
+        background: linear-gradient(0deg, rgb(22, 151, 35) 0%, rgba(45,253,79,1) 100%);
+    }
+    &.yellow {
+        background: rgb(195,145,34);
+        background: linear-gradient(0deg, rgba(195,145,34,1) 0%, rgba(253,251,45,1) 100%);
+    }
+    &.red {
+        background: rgb(195,34,61);
+        background: linear-gradient(0deg, rgb(158, 20, 43) 0%, rgba(253,45,108,1) 100%);
+    }
+
+}
