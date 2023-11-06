@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fps-counter/static/css/main.86c7befa.css",
+    "main.js": "/fps-counter/static/js/main.ed8501ec.js",
+    "static/js/787.681e9c6b.chunk.js": "/fps-counter/static/js/787.681e9c6b.chunk.js",
+    "index.html": "/fps-counter/index.html",
+    "main.86c7befa.css.map": "/fps-counter/static/css/main.86c7befa.css.map",
+    "main.ed8501ec.js.map": "/fps-counter/static/js/main.ed8501ec.js.map",
+    "787.681e9c6b.chunk.js.map": "/fps-counter/static/js/787.681e9c6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86c7befa.css",
+    "static/js/main.ed8501ec.js"
+  ]
+}
